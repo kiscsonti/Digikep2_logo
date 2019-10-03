@@ -42,8 +42,6 @@ class Model:
         for p in self.network.parameters():
             if p.requires_grad:
                 sz = list(p.size())
-                if sz[0] == len(vocab):
-                    sz[0] = self.finetune_topk
                 num_parameters += np.prod(sz)
         print('Number of parameters: ', num_parameters)
 
@@ -66,9 +64,8 @@ class Model:
             self.optimizer.step()
             self.updates += 1
             iter_cnt += 1
-
             if self.updates % 20 == 0:
-                print('Iter: %d/%d, Loss: %f' % (iter_cnt, num_iter, loss.data[0]))
+                print('Iter: %d/%d, Loss: %f' % (iter_cnt, num_iter, loss.item()))
         self.scheduler.step()
         print('LR:', self.scheduler.get_lr()[0])
 
@@ -104,7 +101,7 @@ class Model:
             return good/total
 
         if debug:
-            writer = open('../data/output.log', 'w', encoding='utf-8')
+            writer = open('/home/petigep/college/orak/digikep2/Digikep2_logo/project/nlp_system_v2_binary/data/output.log', 'w', encoding='utf-8')
             writer.write('Image name, Actual label, Predicted label\r\n')
             for i in range(len(all_img_names)):
                 writer.write('%s, %s, %s\r\n'.format(all_img_names[i], str(actuals[i]), str(predictions[i])))
@@ -196,6 +193,11 @@ class Model:
             state_dict.pop('fixed_embedding')
         params = {'state_dict': state_dict}
         torch.save(params, ckt_path)
+
+
+    def save2(self, path):
+        # self.network.save_state_dict(path)
+        torch.save(self.network.state_dict(), path)
 
     def load(self, ckt_path):
         logger.info('Loading model %s' % ckt_path)
