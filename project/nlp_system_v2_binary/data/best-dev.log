@@ -579,4 +579,4 @@ Image name, Actual label, Predicted label
 %s, %s, %s
 %s, %s, %s
 %s, %s, %s
-Accuracy: 0.184483
+Accuracy: 0.194828

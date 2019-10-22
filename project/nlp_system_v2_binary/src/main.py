@@ -16,8 +16,8 @@ random.seed(args.seed)
 
 if __name__ == '__main__':
 
-    train_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/train_dataset_remains/smaller"
-    test_data_path = '/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/evaluation_dataset_remains/smaller'
+    train_data_path = "/home/petigep/college/orak/digikep2/train/"
+    test_data_path = '/home/petigep/college/orak/digikep2/eval/'
 
     # train_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/train/"
     # test_data_path = '/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/eval/'
@@ -54,8 +54,12 @@ if __name__ == '__main__':
 
         if dev_acc > best_dev_acc:
             best_dev_acc = dev_acc
-            os.system('mv ./data/output.log ./data/best-dev.log')
+            os.system('mv /home/petigep/college/orak/digikep2/Digikep2_logo/project/nlp_system_v2_binary/data/output.log /home/petigep/college/orak/digikep2/Digikep2_logo/project/nlp_system_v2_binary/data/best-dev.log')
             model.save(checkpoint_path)
+            try:
+                model.save2("./checkpoint/petigep_best.mdl")
+            except:
+                print("didnt work the save2")
         # elif args.test_mode:
         #     model.save(checkpoint_path)
         print('Epoch %d use %d seconds.' % (i, time.time() - start_time))
