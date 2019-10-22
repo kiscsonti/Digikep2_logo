@@ -16,6 +16,7 @@ parser.add_argument('--use_cuda', type='bool', default=True, help='use cuda or n
 parser.add_argument('--grad_clipping', type=float, default=10.0, help='maximum L2 norm for gradient clipping')
 parser.add_argument('--lr', type=float, default=2e-3, help='learning rate')
 parser.add_argument('--batch_size', type=int, default=32, help='batch size')
+parser.add_argument('--check_per_epoch', type=int, default=8, help='batch size')
 parser.add_argument('--hidden_size', type=int, default=96, help='default size for RNN layer')
 parser.add_argument('--dropout_emb', type=float, default=0.4, help='dropout rate for embeddings')
 parser.add_argument('--pretrained', type=str, default='', help='pretrained model path')
