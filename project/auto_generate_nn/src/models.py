@@ -3,9 +3,9 @@ import torch.nn.functional as F
 
 
 class LinearNet(nn.Module):
-    def __init__(self, labels, args):
+    def __init__(self, args):
         super(LinearNet, self).__init__()
-        self.labels = labels
+        self.labels = args.number_of_labels
         self.batch_size = args.batch_size
         self.lls = args.img_size * args.img_size
         self.fc1 = nn.Linear(self.lls, 256)

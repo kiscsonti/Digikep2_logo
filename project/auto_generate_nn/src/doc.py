@@ -51,19 +51,25 @@ class MyImageFolder(ImageFolder):
         return super(MyImageFolder, self).__getitem__(index) + (self.imgs[index][0],)
 
 
-def organize_files(data_path, tmp_path, batch_size):
+def organize_files(data_path, tmp_path, args):
 
-    data_directories = list()
-    for root, dirs, files in os.walk(data_path):
-        for d in dirs:
-            data_directories.append(os.path.join(root, d))
-
-    tmp_directories = list()
-    for root, dirs, files in os.walk(tmp_path):
-        for d in dirs:
-            tmp_directories.append(os.path.join(root, d))
 
     while(True):
+
+        data_directories = list()
+        for root, dirs, files in os.walk(data_path):
+            for d in dirs:
+                data_directories.append(os.path.join(root, d))
+
+        if len(data_directories) < args.number_of_labels:
+            time.sleep(1)
+            continue
+
+        tmp_directories = list()
+        for root, dirs, files in os.walk(tmp_path):
+            for d in dirs:
+                tmp_directories.append(os.path.join(root, d))
+
         nmb_of_files = dict()
         for d in data_directories:
             for root, dirs, files in os.walk(d):
@@ -71,7 +77,7 @@ def organize_files(data_path, tmp_path, batch_size):
 
         fail = False
         for val in nmb_of_files.values():
-            if val < batch_size:
+            if val < args.batch_size:
                 time.sleep(1)
                 fail = True
 
@@ -91,7 +97,7 @@ def organize_files(data_path, tmp_path, batch_size):
 
         fail = False
         for val in nmb_of_files.values():
-            if val < 8 * batch_size:
+            if val < 8 * args.batch_size:
                 fail = True
 
         if fail:
@@ -108,7 +114,7 @@ def load_data(data_path, tmp_path, args, shuffle=True):
     if not os.path.exists(tmp_path):
         os.mkdir(tmp_path)
 
-    organize_files(data_path, tmp_path, args.batch_size)
+    organize_files(data_path, tmp_path, args)
 
     custom_transform = transforms.Compose([transforms.Grayscale(num_output_channels=1),
                                            transforms.Resize((args.img_size, args.img_size)),

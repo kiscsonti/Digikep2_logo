@@ -36,9 +36,9 @@ class BasicNet_14(nn.Module):
 
 
 class V2_CNN(nn.Module):
-    def __init__(self, labels, args):
+    def __init__(self, args):
         super(V2_CNN, self).__init__()
-        self.labels = labels
+        self.labels = args.number_of_labels
         self.batch_size = args.batch_size
         self.h1_size = 32
         self.h2_size = 64
@@ -75,15 +75,14 @@ class V2_CNN(nn.Module):
         return x
 
 
-
 class LinearNet(nn.Module):
-    def __init__(self, labels, args):
+    def __init__(self, args):
         super(LinearNet, self).__init__()
-        self.labels = labels
+        self.labels = args.number_of_labels
         self.batch_size = args.batch_size
-        self.lls = 224*224*3
-        self.fc1 = nn.Linear(self.lls, 1024)
-        self.fc2 = nn.Linear(1024, 128)
+        self.lls = args.img_size * args.img_size
+        self.fc1 = nn.Linear(self.lls, 512)
+        self.fc2 = nn.Linear(512, 128)
         self.fc3 = nn.Linear(128, self.labels)
 
     def forward(self, x):

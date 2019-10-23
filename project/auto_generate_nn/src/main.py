@@ -17,10 +17,17 @@ random.seed(args.seed)
 
 if __name__ == '__main__':
 
+    #otthon
+    # generated_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/Digikep2_logo/Generator/Linux/output/"
+    # train_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/Digikep2_logo/Generator/Linux/train/"
+    # test_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/Digikep2_logo/Generator/Linux/test/"
 
-    generated_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/Digikep2_logo/Generator/Linux/output/"
-    train_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/Digikep2_logo/Generator/Linux/train/"
-    test_data_path = "/media/kiscsonti/521493CD1493B289/egyetem/mester/1.felev/digikep/logo_class/Digikep2_logo/Generator/Linux/test/"
+
+    #alagsor
+    generated_data_path = "/home/petigep/college/orak/digikep2/Digikep2_logo/Generator/Linux/output"
+    train_data_path = "/home/petigep/college/orak/digikep2/Digikep2_logo/Generator/Linux/train"
+    test_data_path = "/home/petigep/college/orak/digikep2/Digikep2_logo/Generator/Linux/test"
+
 
     epoch_counter = 0
     best_dev_acc = 0.0
@@ -36,7 +43,7 @@ if __name__ == '__main__':
     for item in test_data.dataset.classes:
         labels_count.add(item)
     print('Number of labels:', len(labels_count))
-    model = Model(args, 7)
+    model = Model(args)
 
     while epoch_counter * 8 * args.batch_size < 100000:
 
@@ -60,7 +67,7 @@ if __name__ == '__main__':
 
             if dev_acc > best_dev_acc:
                 best_dev_acc = dev_acc
-                os.system('mv ./data/output.log ./data/best-dev.log')
+                # os.system('mv ./data/output.log ./data/best-dev.log')
 
                 # model.save(best_model_path)
 

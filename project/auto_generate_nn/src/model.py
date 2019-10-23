@@ -14,7 +14,7 @@ logger = logging.getLogger()
 
 class Model:
 
-    def __init__(self, args, labels):
+    def __init__(self, args):
         self.args = args
         self.batch_size = args.batch_size
         self.lr = args.lr
@@ -22,7 +22,7 @@ class Model:
         print('Use cuda:', self.use_cuda)
         if self.use_cuda:
             torch.cuda.set_device(int(args.gpu))
-        self.network = LinearNet(labels, args)
+        self.network = LinearNet(args)
         self.init_optimizer()
         if args.pretrained:
             print('Load pretrained model from %s...' % args.pretrained)
@@ -61,7 +61,7 @@ class Model:
             iter_cnt += 1
 
             if self.updates % 20 == 0:
-                print('Iter: %d/%d, Loss: %f' % (iter_cnt, num_iter, loss.data[0]))
+                print('Iter: %d/%d, Loss: %f' % (iter_cnt, num_iter, loss.item()))
         self.scheduler.step()
         print('LR:', self.scheduler.get_lr()[0])
 
