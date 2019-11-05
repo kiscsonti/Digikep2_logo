@@ -53,8 +53,7 @@ class MyImageFolder(ImageFolder):
 
 def organize_files(data_path, tmp_path, args):
 
-
-    while(True):
+    while True:
 
         data_directories = list()
         for root, dirs, files in os.walk(data_path):
@@ -97,7 +96,7 @@ def organize_files(data_path, tmp_path, args):
 
         fail = False
         for val in nmb_of_files.values():
-            if val < 8 * args.batch_size:
+            if val < args.batch_size:
                 fail = True
 
         if fail:
@@ -124,7 +123,7 @@ def load_data(data_path, tmp_path, args, shuffle=True):
     dataset = MyImageFolder(root=tmp_path,
                             transform=custom_transform)
 
-    print(dataset.class_to_idx)
+    # print(dataset.class_to_idx)
 
     return DataLoader(dataset=dataset,
                       batch_size=args.batch_size,

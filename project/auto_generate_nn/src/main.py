@@ -45,41 +45,43 @@ if __name__ == '__main__':
     print('Number of labels:', len(labels_count))
     model = Model(args)
 
-    while epoch_counter * 8 * args.batch_size < 100000:
+    print('Epoch %d...' % epoch_counter)
+    if epoch_counter == 0:
+        dev_acc = model.evaluate(test_data)
+        print('Dev accuracy: %f' % dev_acc)
+
+    while True:
 
         train_data = load_data(generated_data_path, train_data_path, args=args)
 
-        print('Epoch %d...' % epoch_counter)
-        if epoch_counter == 0:
-            dev_acc = model.evaluate(test_data)
-            print('Dev accuracy: %f' % dev_acc)
         start_time = time.time()
         # np.random.shuffle(train_data)
         # cur_train_data = train_data
-        model.train(train_data)
-        #ez kérdéses működni fog-e
-        train_acc = model.evaluate(train_data, debug=False, eval_train=True, max_input=2*args.batch_size)
-        print('Train accuracy: %f' % train_acc)
+        for i in range(4):
+            model.train(train_data)
+            #ez kérdéses működni fog-e
+            train_acc = model.evaluate(train_data, debug=False, eval_train=True, max_input=args.number_of_labels*args.batch_size)
+            print('Train accuracy: %f' % train_acc)
 
-        if epoch_counter % args.check_per_epoch == 0:
-            dev_acc = model.evaluate(test_data, debug=True)
-            print('Dev accuracy: %f' % dev_acc)
+        # if epoch_counter % args.check_per_epoch == 0:
+        dev_acc = model.evaluate(test_data, debug=True)
+        print('Dev accuracy: %f' % dev_acc)
 
-            if dev_acc > best_dev_acc:
-                best_dev_acc = dev_acc
-                # os.system('mv ./data/output.log ./data/best-dev.log')
+        if dev_acc > best_dev_acc:
+            best_dev_acc = dev_acc
+            # os.system('mv ./data/output.log ./data/best-dev.log')
 
-                # model.save(best_model_path)
+            # model.save(best_model_path)
 
-                torch.save(model.network.state_dict(), best_modelweights_path)
+            torch.save(model.network.state_dict(), best_modelweights_path)
 
-                # the_model = TheModelClass(*args, **kwargs)
-                # the_model.load_state_dict(torch.load(PATH))
+            # the_model = TheModelClass(*args, **kwargs)
+            # the_model.load_state_dict(torch.load(PATH))
 
-                torch.save(model.network, best_model_path)
+            torch.save(model.network, best_model_path)
                 # the_model = torch.load(PATH)
 
-            test_data = load_data(generated_data_path, test_data_path, args=args, shuffle=False)
+        # test_data = load_data(generated_data_path, test_data_path, args=args, shuffle=False)
 
         # elif args.test_mode:
         #     model.save(checkpoint_path)

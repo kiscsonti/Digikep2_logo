@@ -9,8 +9,6 @@ from torchvision.datasets import ImageFolder
 from distutils.dir_util import copy_tree, remove_tree
 import time
 from skimage.feature import hog
-import torch
-
 
 class LogoDataset(Dataset):
     """Custom Dataset for loading Logo images"""
@@ -42,7 +40,6 @@ class LogoDataset(Dataset):
 
 
 from PIL import ImageFile
-
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
@@ -136,7 +133,7 @@ def load_data(data_path, tmp_path, args, shuffle=True):
 
 class HogFeatures(object):
 
-    def __init__(self, orient=9, pixels_per_cell=(4, 4), cells_per_block=(2, 2), multichannel=False):
+    def __init__(self, orient=9, pixels_per_cell=(2, 2), cells_per_block=(2, 2), multichannel=False):
         self.orient = orient
         self.pixels_per_cell = pixels_per_cell
         self.cells_per_block = cells_per_block

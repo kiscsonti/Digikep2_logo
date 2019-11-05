@@ -7,7 +7,7 @@ from torch.autograd import Variable
 import torch.optim.lr_scheduler as lr_scheduler
 import numpy as np
 
-from models import BasicNet_14, LinearNetSmall
+from models import BasicNet_14, LinearNet, CNN_64_64_32
 
 logger = logging.getLogger()
 
@@ -22,7 +22,7 @@ class Model:
         print('Use cuda:', self.use_cuda)
         if self.use_cuda:
             torch.cuda.set_device(int(args.gpu))
-        self.network = LinearNetSmall(args)
+        self.network = CNN_64_64_32(args)
         self.init_optimizer()
         if args.pretrained:
             print('Load pretrained model from %s...' % args.pretrained)
@@ -50,10 +50,21 @@ class Model:
             if self.use_cuda:
                 inputs = inputs.to('cuda')
                 labels = labels.to('cuda')
+
+            # print(inputs)
+            # print("Labels: ", labels)
+            # print("_:", _)
+            # import sys
+            # sys.exit(0)
             pred_proba = self.network(inputs)
+            # print("pred proba: ", pred_proba.size())
+            # print("labels: ", labels.size())
+
             loss = F.nll_loss(pred_proba, labels)
 
-            torch.nn.utils.clip_grad_norm(self.network.parameters(), self.args.grad_clipping)
+            self.optimizer.zero_grad()
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(self.network.parameters(), self.args.grad_clipping)
 
             # Update parameters
             self.optimizer.step()
@@ -86,7 +97,7 @@ class Model:
             actuals.extend(labels)
             all_img_names.extend(image_names)
 
-            final_predicts = torch.max(pred_proba, 1)[1]
+            final_predicts = torch.argmax(pred_proba, dim=1)
             predictions.extend(final_predicts)
             total += len(labels)
             for a, b in zip(final_predicts, labels):
@@ -145,7 +156,7 @@ class Model:
         else:
             raise RuntimeError('Unsupported optimizer: %s' %
                                self.args.optimizer)
-        self.scheduler = lr_scheduler.MultiStepLR(self.optimizer, milestones=[10, 30], gamma=0.5)
+        self.scheduler = lr_scheduler.MultiStepLR(self.optimizer, milestones=[128, 1024, 3000], gamma=0.5)
 
     def save(self, ckt_path):
         state_dict = copy.copy(self.network.state_dict())

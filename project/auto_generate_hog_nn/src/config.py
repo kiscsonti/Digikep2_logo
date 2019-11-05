@@ -15,7 +15,7 @@ parser.add_argument('--optimizer', type=str, default='adamax', help='optimizer, 
 parser.add_argument('--use_cuda', type='bool', default=True, help='use cuda or not')
 parser.add_argument('--grad_clipping', type=float, default=10.0, help='maximum L2 norm for gradient clipping')
 parser.add_argument('--lr', type=float, default=2e-3, help='learning rate')
-parser.add_argument('--batch_size', type=int, default=4, help='batch size')
+parser.add_argument('--batch_size', type=int, default=32, help='batch size')
 parser.add_argument('--check_per_epoch', type=int, default=8, help='batch size')
 parser.add_argument('--img_size', type=int, default=256, help='batch size')
 parser.add_argument('--hidden_size', type=int, default=96, help='default size for RNN layer')
