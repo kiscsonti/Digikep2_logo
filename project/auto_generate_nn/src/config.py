@@ -1,8 +1,9 @@
 import os
 import argparse
 import logging
-
+import json
 logger = logging.getLogger(__name__)
+from shutil import copyfile
 
 def str2bool(v):
     return v.lower() in ('yes', 'true', 't', '1', 'y')
@@ -29,3 +30,29 @@ print(args)
 
 if args.pretrained:
     assert all(os.path.exists(p) for p in args.pretrained.split(',')), 'Checkpoint %s does not exist.' % args.pretrained
+
+
+def create_logo_generator_cfg(path, width=512, heigth=512, images=64, objects=1000, noise=False, ):
+    config = dict()
+
+    config["width"] = width
+    config["heigth"] = heigth
+    config["images"] = images
+    config["objects"] = objects
+
+
+    with open(path, "w") as json_file:
+        json.dump(config, json_file)
+
+
+def copy_standard_config(to_path, from_path="/home/petigep/college/orak/digikep2/Digikep2_logo/Generator/Linux/config_standard.json"):
+    copyfile(from_path, to_path)
+
+
+def setConstanst_Value(value, from_path):
+    with open(from_path, "r") as in_f:
+        x = json.load(in_f)
+    x["image"]["constantSetupRate"] = value
+
+    with open(from_path, "w") as out_f:
+        json.dump(x, out_f, indent=4)

@@ -74,7 +74,8 @@ class Example(wx.Frame):
         self.textField.SetFont(font3)
 
 
-        imageFile = r"/home/petigep/college/orak/digikep2/Digikep2_logo/InteractWIthModel/thumbnail.png"
+        imageFile = r"/home/petigep/college/orak/digikep2/GOLD_TEST/test_final/sorted/apple/339296129.jpg"
+        # imageFile = r"/home/petigep/college/orak/digikep2/Digikep2_logo/InteractWIthModel/thumbnail.png"
         # imageFile = r"E:\egyetem\mester\1.felev\demonstrator\alga1\memes\meme_for_pluszpont.png"
         self.load_image(imageFile, init=True)
 

@@ -7,7 +7,7 @@ from torch.autograd import Variable
 import torch.optim.lr_scheduler as lr_scheduler
 import numpy as np
 
-from models import BasicNet_14, LinearNet, CNN_32_64_32
+from models import BasicNet_14, LinearNet, CNN_32_64_32, CNN_48x4
 
 logger = logging.getLogger()
 
@@ -22,7 +22,7 @@ class Model:
         print('Use cuda:', self.use_cuda)
         if self.use_cuda:
             torch.cuda.set_device(int(args.gpu))
-        self.network = CNN_32_64_32(args)
+        self.network = CNN_48x4(args)
         self.init_optimizer()
         if args.pretrained:
             print('Load pretrained model from %s...' % args.pretrained)
@@ -153,7 +153,7 @@ class Model:
         else:
             raise RuntimeError('Unsupported optimizer: %s' %
                                self.args.optimizer)
-        self.scheduler = lr_scheduler.MultiStepLR(self.optimizer, milestones=[10, 80, 300], gamma=0.5)
+        self.scheduler = lr_scheduler.MultiStepLR(self.optimizer, milestones=[80, 160, 320], gamma=0.5)
 
     def save(self, ckt_path):
         state_dict = copy.copy(self.network.state_dict())

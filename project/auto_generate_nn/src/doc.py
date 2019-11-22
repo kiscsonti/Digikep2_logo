@@ -77,6 +77,11 @@ def organize_files(data_path, tmp_path, args):
         fail = False
         for val in nmb_of_files.values():
             if val < args.batch_size:
+
+                # print(data_path)
+                # print(os.path.join(data_path, "ready"))
+                if os.path.exists(os.path.join(data_path, "ready")):
+                    os.remove(os.path.join(data_path, "ready"))
                 time.sleep(1)
                 fail = True
 
@@ -86,8 +91,10 @@ def organize_files(data_path, tmp_path, args):
         if not os.path.exists(data_path):
             time.sleep(3)
             continue
+        trold = "/home/petigep/college/orak/digikep2/Digikep2_logo/Generator/Linux/torold"
         copy_tree(data_path, tmp_path)
-        remove_tree(data_path)
+        os.rename(data_path, trold)
+        remove_tree(trold)
 
         nmb_of_files = dict()
         for d in tmp_directories:

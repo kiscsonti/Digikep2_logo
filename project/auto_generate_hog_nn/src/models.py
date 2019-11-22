@@ -34,7 +34,7 @@ class CNN_64_64_32(nn.Module):
         self.h1_size = 64
         self.h2_size = 64
         self.h3_size = 48
-        self.lls = self.h3_size*16*16
+        self.lls = self.h3_size*32*32
         self.conv1 = nn.Conv2d(9, self.h1_size, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
         self.norm1 = nn.BatchNorm2d(self.h1_size, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
         self.pool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
@@ -49,7 +49,7 @@ class CNN_64_64_32(nn.Module):
     def forward(self, x):
         # print(x.shape)
         batch = x.shape[0]
-        x = x.view(batch, 9, (int(self.img_size/2)-1) * 2, (int(self.img_size/2)-1) * 2)
+        x = x.view(batch, 9, (int(self.img_size)-1) * 2, (int(self.img_size)-1) * 2)
         # print(x.shape)
         x = self.pool(F.relu(self.norm1(self.conv1(x))))
         # print(x.shape)
