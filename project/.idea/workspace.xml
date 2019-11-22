@@ -2,15 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc5e4fcc-699c-4ae9-80f7-06e5b1826a68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nlp_system_v2_binary/src/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_testing/Load_Model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_testing/Load_Model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_testing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_testing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generator/Linux.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Generator/Linux.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InteractWIthModel/GUI2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interactive/dict2json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interactive/dict2json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interactive/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interactive/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/data/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_system_v2_binary/data/output.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_system_v2_binary/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_system_v2_binary/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_system_v2_binary/src/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_hog_nn/src/doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_hog_nn/src/doc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_hog_nn/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_hog_nn/src/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/saved_model/best_model_1234.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/saved_model/best_model_1234.mdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/saved_model/best_modelweights_1234.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/saved_model/best_modelweights_1234.mdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/src/doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/src/doc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/src/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/src/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_generate_nn/src/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_generate_nn/src/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/data/output.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/conceptnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/doc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/model_backup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/play_with_trained_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/trian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system/src/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/data/output.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/conceptnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/doc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/model_backup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/play_with_trained_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/trian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2/src/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/data/best-dev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/data/output.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/conceptnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/doc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/model_backup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/play_with_trained_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/trian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_system_v2_binary/src/utils.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +67,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1573891842349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_generate_nn/src" />
+    <SUITE FILE_PATH="coverage/project$set_limit_train_no_logo.coverage" NAME="set_limit_train_no_logo Coverage Results" MODIFIED="1569752162595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/project$check_things.coverage" NAME="check_things Coverage Results" MODIFIED="1568478450356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$models.coverage" NAME="models Coverage Results" MODIFIED="1569052888949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$merge_no_logos.coverage" NAME="merge_no_logos Coverage Results" MODIFIED="1569745889662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/project$eval_preprocess.coverage" NAME="eval_preprocess Coverage Results" MODIFIED="1568477836929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/project$clear_not_need_files.coverage" NAME="clear_not_need_files Coverage Results" MODIFIED="1568477858945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
-    <SUITE FILE_PATH="coverage/project$set_limit_train_no_logo.coverage" NAME="set_limit_train_no_logo Coverage Results" MODIFIED="1569752162595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/project$teszt2.coverage" NAME="teszt2 Coverage Results" MODIFIED="1572354201033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_generate_hog_nn/src" />
     <SUITE FILE_PATH="coverage/project$set_limit_eval_no_logo.coverage" NAME="set_limit_eval_no_logo Coverage Results" MODIFIED="1569751370784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/project$all_in_one.coverage" NAME="all_in_one Coverage Results" MODIFIED="1569056497794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1569760157770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp_system_v2/src" />
-    <SUITE FILE_PATH="coverage/project$check_things.coverage" NAME="check_things Coverage Results" MODIFIED="1568478450356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$larges_folder.coverage" NAME="larges_folder Coverage Results" MODIFIED="1569744911566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
-    <SUITE FILE_PATH="coverage/project$models.coverage" NAME="models Coverage Results" MODIFIED="1569052888949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1569921256074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp_system_v2_binary/src" />
   </component>
   <component name="DatabaseView">
@@ -47,47 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/model.py">
+        <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/doc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -106,6 +120,9 @@
       <find>porsche</find>
       <find>et</find>
       <find>loss</find>
+      <find>clip</find>
+      <find>evaluate</find>
+      <find>step</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,18 +156,32 @@
         <option value="$PROJECT_DIR$/data/set_limit_train_no_logo.py" />
         <option value="$PROJECT_DIR$/nlp_system_v2/src/doc.py" />
         <option value="$PROJECT_DIR$/nlp_system_v2/src/main.py" />
-        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/nlp_system_v2_binary/src/config.py" />
         <option value="$PROJECT_DIR$/nlp_system_v2/src/model.py" />
         <option value="$PROJECT_DIR$/nlp_system_v2_binary/src/main.py" />
         <option value="$PROJECT_DIR$/nlp_system_v2_binary/src/model.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/layers.py" />
+        <option value="$PROJECT_DIR$/auto_generate_hog_nn/src/main.py" />
+        <option value="$PROJECT_DIR$/auto_generate_hog_nn/src/teszt2.py" />
+        <option value="$PROJECT_DIR$/auto_generate_hog_nn/src/model.py" />
+        <option value="$PROJECT_DIR$/auto_generate_hog_nn/src/doc.py" />
+        <option value="$PROJECT_DIR$/auto_generate_hog_nn/src/models.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/test.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/config.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/models.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/model.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/doc.py" />
+        <option value="$PROJECT_DIR$/auto_generate_nn/src/main.py" />
+        <option value="$PROJECT_DIR$/../Data_testing/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="34" />
-    <option name="width" value="960" />
-    <option name="height" value="790" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-170" />
+    <option name="y" value="5" />
+    <option name="width" value="1400" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,37 +199,36 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_system_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_generate_hog_nn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_system_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_generate_hog_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="saved_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_generate_hog_nn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_system_v2_binary" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_generate_nn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_system_v2_binary" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_generate_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="saved_model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_system_v2_binary" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_generate_nn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_system_v2_binary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,22 +239,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../interactive" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auto_generate_hog_nn/src" />
       <recent name="$PROJECT_DIR$/nlp_system_v2_binary/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/nlp_system_v2/src" />
-      <recent name="$PROJECT_DIR$/nlp_system/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,50 +314,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_no_logos" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/merge_no_logos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="set_limit_eval_no_logo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/set_limit_eval_no_logo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="set_limit_train_no_logo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -350,13 +336,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/auto_generate_nn/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_generate_nn/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teszt2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/auto_generate_hog_nn/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_generate_hog_nn/src/teszt2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.teszt2" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.set_limit_train_no_logo" />
-        <item itemvalue="Python.set_limit_eval_no_logo" />
-        <item itemvalue="Python.merge_no_logos" />
       </list>
     </recent_temporary>
   </component>
@@ -379,17 +409,24 @@
       <workItem from="1569740311013" duration="9362000" />
       <workItem from="1569752750829" duration="5714000" />
       <workItem from="1569917631579" duration="4833000" />
-      <workItem from="1569930027170" duration="664000" />
+      <workItem from="1569930027170" duration="1031000" />
+      <workItem from="1571408258090" duration="53000" />
+      <workItem from="1571732326834" duration="4728000" />
+      <workItem from="1571747294289" duration="22421000" />
+      <workItem from="1573231640633" duration="18000" />
+      <workItem from="1573552054759" duration="2336000" />
+      <workItem from="1573569964701" duration="12890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51306000" />
+    <option name="totallyTimeSpent" value="94119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27321237" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29242262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,91 +453,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unified_logo_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/clear_not_need_files.py" />
-    <entry file="file://$PROJECT_DIR$/data/check_things.py" />
-    <entry file="file://$PROJECT_DIR$/data/flickr_logos_27_dataset/flickr_logos_27_dataset_distractor_set_urls.txt" />
-    <entry file="file://$PROJECT_DIR$/data/flickr_logos_27_dataset/flickr_logos_27_dataset_query_set_annotation.txt" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/nn/modules/conv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="288" column="8" selection-start-line="288" selection-start-column="8" selection-end-line="288" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/flickr_logos_27_dataset/flickr_logos_27_dataset_training_set_annotation.txt" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/optim/adam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/download.sh" />
-    <entry file="file://$PROJECT_DIR$/nlp_system/run.sh" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/eval_data.txt" />
-    <entry file="file://$PROJECT_DIR$/data/test_data_merged_none.csv" />
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/model_backup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/nn/modules/activation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="775" column="8" selection-start-line="775" selection-start-column="8" selection-end-line="775" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/optim/optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/play_with_trained_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_data_merged.csv" />
-    <entry file="file://$PROJECT_DIR$/data/train_data_merged.csv" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/utils/data/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="449" column="8" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big_system.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -508,48 +460,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/trian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_system/src/trian.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system/src/config.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system/src/model.py" />
     <entry file="file://$PROJECT_DIR$/data/larges_folder.py" />
     <entry file="file://$PROJECT_DIR$/data/picked_logos.txt" />
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_system/src/main.py" />
     <entry file="file://$PROJECT_DIR$/all_in_one.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -560,16 +476,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system/src/doc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_system/src/doc.py" />
     <entry file="file://$PROJECT_DIR$/data/get_brands.py" />
     <entry file="file://$PROJECT_DIR$/data/Merge_data.ipynb" />
     <entry file="file://$PROJECT_DIR$/data/mil_eval_preprocess.py" />
@@ -583,16 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/merge_no_logos.py" />
     <entry file="file://$PROJECT_DIR$/data/set_limit_eval_no_logo.py" />
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2/src/main.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/nn/functional.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -600,16 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2/src/doc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2/src/doc.py" />
     <entry file="file://$PROJECT_DIR$/data/set_limit_train_no_logo.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/torch/nn/modules/module.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,72 +514,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/doc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/utils.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2/src/model.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/main.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/models.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/config.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/model.py" />
+    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/doc.py" />
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="301">
+          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="80" selection-end-column="43" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2/src/model.py">
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="195" column="36" lean-forward="true" selection-start-line="195" selection-start-column="36" selection-end-line="195" selection-end-column="36" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../backup/autogenerate_hog_nn/doc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1481">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../backup/autogenerate_hog_nn/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/site-packages/skimage/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="263" column="10" selection-start-line="263" selection-start-column="4" selection-end-line="263" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/teszt2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/dl36/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="155" column="89" selection-start-line="155" selection-start-column="89" selection-end-line="155" selection-end-column="89" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/main.py">
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/doc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="97" column="41" lean-forward="true" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/models.py">
+    <entry file="file://$PROJECT_DIR$/auto_generate_nn/src/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="360">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_system_v2_binary/src/model.py">
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/saved_model/best_modelweights_1234.mdl">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-125129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/saved_model/best_model_1234.mdl">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-225">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Data_testing/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="45">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_generate_hog_nn/src/doc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
