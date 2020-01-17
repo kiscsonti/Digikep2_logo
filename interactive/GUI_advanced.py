@@ -142,10 +142,13 @@ class Example(wx.Frame):
         pred = self.model(img_tensor)
         print(pred)
         label = np.argmax(pred.tolist())
+        print("res: ", np.sqrt(torch.exp(pred).tolist()[0]))
 
         self.predLabel.SetLabelText(str(label) + " : " + self.id2label[label])
 
-        info = ", ".join([str(self.id2label[index]) + ": " + "{:.4f}".format(float(np.power(np.e, item))) for index, item in enumerate(pred.tolist()[0])])
+        # info = ", ".join([str(self.id2label[index]) + ": " + "{:.14f}".format(float(np.power(np.e, item))) for index, item in enumerate(pred.tolist()[0])])
+        info = ", ".join([str(self.id2label[index]) + ": " + "{:.4f}".format(float(item)) for index, item in enumerate(torch.exp(pred).tolist()[0])])
+        # info = ", ".join([str(self.id2label[index]) + ": " + "{:.4f}".format(float(item)) for index, item in enumerate(pred.tolist()[0])])
         self.moreInfoLabel.SetLabelText(info)
 
         pass
